@@ -43,7 +43,7 @@ const Navbar = ({ darkMode, toggleTheme }: NavbarProps) => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold text-primary">JOHN DOE</a>
+        <a href="#" className="text-2xl font-bold text-primary">Souptik Biswas</a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">

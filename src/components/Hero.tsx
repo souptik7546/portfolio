@@ -35,7 +35,7 @@ const Hero = () => {
     <section id="hero" className="min-h-screen flex flex-col justify-center pt-16">
       <div className="relative z-10">
         <div className="animate-fade-in">
-          <h1 className="text-4xl md:text-6xl font-bold mb-3">Hi, I'm John Doe</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-3">Hi, I'm Souptik Biswas</h1>
           <h2 className="text-2xl md:text-4xl text-primary font-medium mb-6">
             {typedText}<span className={`${cursorVisible ? 'opacity-100' : 'opacity-0'} transition-opacity`}>|</span>
           </h2>

@@ -13,14 +13,14 @@ const Skills = () => {
   const [skills] = useState<Skill[]>([
     { name: 'React', level: 90, category: 'frontend' },
     { name: 'JavaScript', level: 95, category: 'frontend' },
-    { name: 'TypeScript', level: 85, category: 'frontend' },
+    { name: 'TypeScript', level: 55, category: 'frontend' },
     { name: 'HTML/CSS', level: 90, category: 'frontend' },
     { name: 'Node.js', level: 80, category: 'backend' },
     { name: 'Express', level: 75, category: 'backend' },
     { name: 'MongoDB', level: 70, category: 'backend' },
-    { name: 'SQL', level: 65, category: 'backend' },
+    // { name: 'SQL', level: 65, category: 'backend' },
     { name: 'Git', level: 85, category: 'other' },
-    { name: 'UI/UX Design', level: 75, category: 'other' },
+    // { name: 'UI/UX Design', level: 75, category: 'other' },
   ]);
 
   const [animatedLevels, setAnimatedLevels] = useState<{ [key: string]: number }>(

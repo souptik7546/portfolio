@@ -20,16 +20,16 @@ const About = () => {
                 I specialize in JavaScript frameworks like React, along with Node.js for backend development. I enjoy solving complex problems and creating intuitive, dynamic user experiences.
               </p>
               <p>
-                When I'm not coding, you'll find me hiking local trails, experimenting with new cooking recipes, or contributing to open-source projects.
+                When I'm not coding, you'll find me at the gym or experimenting with new cooking recipes.
               </p>
               
               <div className="mt-6">
                 <h3 className="font-semibold text-xl mb-2">Quick Facts</h3>
                 <ul className="space-y-2">
                   <li>🎓 Computer Science degree from Tech University</li>
-                  <li>💼 Previously worked at Tech Solutions Inc.</li>
-                  <li>🌍 Based in San Francisco, CA</li>
-                  <li>⚡ Fun fact: I've visited 15 countries and counting!</li>
+                  {/* <li>💼 Previously worked at Tech Solutions Inc.</li> */}
+                  <li>🌍 Based in Kolkata, West Bengal</li>
+                  <li>⚡ Fun fact: I am a competative Programmer</li>
                 </ul>
               </div>
             </CardContent>
@@ -40,7 +40,7 @@ const About = () => {
           <div className="relative w-64 h-64 md:w-80 md:h-80">
             <div className="absolute inset-0 rounded-full bg-primary/20 transform -translate-x-4 -translate-y-4"></div>
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" 
+              src="./1746352025796.jpeg" 
               alt="John Doe" 
               className="rounded-full w-full h-full object-cover border-4 border-background relative z-10" 
             />
