@@ -48,7 +48,7 @@ const Contact = () => {
       console.log(data);
       toast({
         title: 'Message sent!',
-        description: 'Thanks for reaching out. I'll get back to you soon.',
+        description: 'Thanks for reaching out. I\'ll get back to you soon.',
       });
       form.reset();
       setIsSubmitting(false);
