@@ -14,7 +14,7 @@ const About = () => {
           <Card>
             <CardContent className="p-6">
               <p className="mb-4">
-                Hello! I'm John, a passionate full-stack developer with over 5 years of experience building web applications. My journey in tech began when I created my first HTML page as a teenager, and I've been hooked ever since.
+                Hello! I'm Souptik, a passionate full-stack developer with over 5 years of experience building web applications. My journey in tech began when I created my first HTML page as a teenager, and I've been hooked ever since.
               </p>
               <p className="mb-4">
                 I specialize in JavaScript frameworks like React, along with Node.js for backend development. I enjoy solving complex problems and creating intuitive, dynamic user experiences.
